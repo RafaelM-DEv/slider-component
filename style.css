@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+}
+
+/* WEBP BROWSER SUPPORT */
+.bg-image {
+  background-image: url("/assets/wood_texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-webp {
+  background-image: url("/assets/wood_texture.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
